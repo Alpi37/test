@@ -11,7 +11,7 @@ build-parameters:
         - npm ci
         - npx cds build --production
 modules:
-  - name: cap-minimal-srv
+  - name: cap-minimal-copy-srv
     type: nodejs
     path: gen/srv
     parameters:
